@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script src="./assets/scripts/pokedex.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <div class="from" action="">
+      <input type="text" id="pokeName" name="pokeName" placeholder="Nombre pokemon" />
+      <button onclick="fetchPokemon()">Buscar</button>
+    </div>
+    <div class="pokedex">
+      <div class="contenedor-nombre-tipo">
+        <p id="pokemonName"></p>
+        <div id="types" class="types"></div>
+      </div>
+      <div class="imagen-pokemon">
+          <img src="" alt="pokemon image" id="pokeImg">
+      </div>
+    </div>
+    <div id="stats" class="contenedor-stats">
+        <H2>Stats</H2>
+    </div>
+  </body>
+</html>
